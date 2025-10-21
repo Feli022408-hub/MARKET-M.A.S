@@ -1,0 +1,164 @@
+/* ===== General ===== */
+body {
+  background: #121212;
+  color: #eaeaea;
+  font-family: "Segoe UI", Roboto, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  background: #1c1c1c !important;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 20px;
+}
+
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.navbar-nav > li > a {
+  color: #ccc !important;
+  font-weight: 500;
+  padding: 12px 15px;
+}
+
+.navbar-nav > li > a:hover {
+  color: #4da6ff !important;
+}
+
+/* ===== Paneles ===== */
+.panel {
+  background: #1b1b1b !important;
+  border: 1px solid #2a2a2a !important;
+  border-radius: 10px !important;
+  padding: 20px;
+  box-shadow: none !important;
+}
+
+.panel-heading {
+  background: #2a2a2a !important;
+  border: none !important;
+  color: #4da6ff !important;
+  font-weight: 600;
+  border-radius: 8px 8px 0 0 !important;
+}
+
+
+/* ===== Formularios y Filtros ===== */
+label {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.form-control {
+  background: #222 !important;
+  border: 1px solid #333 !important;
+  color: #f5f5f5 !important;
+  border-radius: 6px !important;
+  box-shadow: none !important;
+}
+
+.form-control:focus {
+  border-color: #4da6ff !important;
+  background: #262626 !important;
+  outline: none;
+}
+
+/* ===== Botones ===== */
+.btn {
+  border-radius: 6px !important;
+  border: none !important;
+  transition: background 0.2s;
+}
+
+.btn-primary {
+  background: #4da6ff !important;
+  color: #fff !important;
+}
+
+.btn-primary:hover {
+  background: #1e90ff !important;
+}
+
+.btn-success {
+  background: #28a745 !important;
+  color: #fff !important;
+}
+
+.btn-success:hover {
+  background: #218838 !important;
+}
+
+.btn-danger {
+  background: #ff4d4d !important;
+}
+
+.btn-danger:hover {
+  background: #e63e3e !important;
+}
+
+/* ===== Productos (tarjetas) ===== */
+.product-card {
+  background: #1e1e1e;
+  border: 1px solid #2a2a2a;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.product-card img {
+  max-width: 120px;
+  margin-bottom: 10px;
+}
+
+.product-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.4);
+}
+
+.product-name {
+  font-weight: 500;
+  margin-top: 8px;
+  color: #eaeaea;
+}
+
+.product-price {
+  display: inline-block;
+  background: #4da6ff;
+  color: #fff;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 13px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* ===== Paginación ===== */
+.pagination > li > a,
+.pagination > li > span {
+  background: #222 !important;
+  border: 1px solid #333 !important;
+  color: #ccc !important;
+}
+
+.pagination > a {
+  background: #4da6ff !important;
+  border-color: #4da6ff !important;
+  color: #000000 !important;
+}
+.modal-content {
+    background: #1b1b1b !important;
+    border: 1px solid #2a2a2a !important;
+    border-radius: 10px !important;
+    padding: 20px;
+    box-shadow: none !important;
+}
+
+

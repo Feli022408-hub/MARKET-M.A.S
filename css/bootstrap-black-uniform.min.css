@@ -1,0 +1,42 @@
+/* ==== Estilo negro uniforme minimalista ==== */
+body, .container, .container-fluid, .row, .col, .panel, .panel-default, 
+.panel-primary, .panel-success, .panel-info, .panel-warning, .panel-danger,
+.table, .table-striped, .table-hover, .table-bordered, .table-responsive,
+.form-control, .form-group, input, select, textarea, button, .btn, 
+.btn-default, .btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger,
+.dropdown-menu, .navbar, .navbar-default, .navbar-inverse {
+    background-color: #000 !important;
+    color: #fff !important;
+    border-color: #444 !important;
+    box-shadow: none !important;
+}
+
+/* Hover en botones */
+.btn:hover, .btn:focus, .btn:active {
+    background-color: #111 !important;
+    color: #fff !important;
+}
+
+/* Tablas con filas alternadas */
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #111 !important;
+}
+.table-hover>tbody>tr:hover {
+    background-color: #222 !important;
+}
+
+/* Inputs */
+.form-control {
+    background-color: #000 !important;
+    color: #fff !important;
+    border: 1px solid #444 !important;
+}
+.form-control:focus {
+    background-color: #111 !important;
+    border-color: #666 !important;
+    color: #fff !important;
+    box-shadow: none !important;
+}
+.h4 {
+    color: #fff;
+}
